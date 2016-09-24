@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21c72c33-814b-4ca5-96c4-876e8d4ae181" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nyc/c4q/leighdouglas/Choices.java" afterPath="$PROJECT_DIR$/src/nyc/c4q/leighdouglas/Choices.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nyc/c4q/leighdouglas/Prompts.java" afterPath="$PROJECT_DIR$/src/nyc/c4q/leighdouglas/Prompts.java" />
-    </list>
+    <list default="true" id="21c72c33-814b-4ca5-96c4-876e8d4ae181" name="Default" comment="" />
     <ignored path="HW_WK2_TxtAdventure_LeighDouglas.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
