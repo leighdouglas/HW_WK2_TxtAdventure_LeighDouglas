@@ -101,13 +101,46 @@ public class Choices {
                     absorbed();
                     startOver = false;
                     break;
+                } else if(choice.equalsIgnoreCase("go to opening")) {
+                    Prompts.tunnelFromLungsToStomach();
+                    lungsToStomach();
+                } else {
+                    startOver = true;
+                    AdventureGame.promptPlayer("Please enter the correct input.");
+                    choice = scanner.nextLine();
+                }
+
+            } while (startOver == true) ;
+
+
+        }
+
+        public static void lungsToStomach(){
+
+            Scanner scanner = new Scanner (System.in);
+            String choice = "";
+            boolean startOver = false;
+
+            choice = scanner.nextLine();
+
+            do {
+                if (choice.equalsIgnoreCase("Stay")) {
+                    burpEnding();
+                    startOver = false;
+                    break;
+                } else if (choice.equalsIgnoreCase("Swim to Wall")) {
+
+                    Prompts.absorbedFromStomach();
+                    Prompts.absorbed();
+                    absorbed();
+                    startOver = false;
+                    break;
                 } else {
                     startOver = true;
                     AdventureGame.promptPlayer("Please enter the correct input.");
                     choice = scanner.nextLine();
                 }
             } while (startOver == true) ;
-
 
         }
 
