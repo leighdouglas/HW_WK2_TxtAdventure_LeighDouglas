@@ -42,6 +42,15 @@ public class Prompts {
                 "The path on the left seems to be more warmth and darkness. Do you choose the path on the left? Or right? (l/r)");
     }
 
+    public static void tunnelFromLungsToStomach(){
+        System.out.println("You crawl towards the opening. You manage to fit into the opening, but suddently you loose control \n" +
+                "and slip, sliding violently down the tunnel. You come through an opening and fall through \n" +
+                "the air, landing in a giant pool of liquid. It's hot and bubbly, but it doesn't burn you. Above you, the pink \n" +
+                "walls tower up towards the hole you fell through. Around you, there are large pieces of mush floating around. The liquid \n" +
+                "seems to break them down, and the walls absorb them. You could stay for a swim, but you seem to be drawn towards \n" +
+                "the walls...what do you do? (stay/swim to wall)" );
+    }
+
     public static void lungs(){
         System.out.println("You approach the rhythmic doors at the entrance of the tunnel on the right. As you approach, the \n" +
                 "gusts of wind get stronger and stronger. A huge gust of wind sucks you into the chamber. You tumble down the tunnel. \n" +
@@ -49,8 +58,8 @@ public class Prompts {
                 "you see that you're in a vast, brightly lit room. You can feel the air around you moving in many directions around you. Inside of \n" +
                 "this room, there seems to be a vast network of branches, expanding out as far as you can see. At the end of each branch \n" +
                 "are tiny sponge-like orbs. They seem to be absorbing the air. You quite like this room, but it's a bit cold. You could \n" +
-                "stay here. You also feel this strong desire to go towards one of these orbs. You also see a small opening a little ways \n" +
-                "down from you. You could probably crawl into it...What do you do? (stay/touch orb)");
+                "stay here. You also feel this strong desire to go towards one of these orbs. You look around a bit more and see a small opening" +
+                "below you...you could probably crawl in. What do you do? (stay/touch orb/go to opening)");
     }
 
     public static void stomach(){
@@ -64,11 +73,11 @@ public class Prompts {
 
     public static void burpEnding(){
         System.out.println("You decide to go for a swim and enjoy this warm, bubbly liquid. After swimming for some time, the walls \n" +
-                "begin to violently shake. A huge bubble rises to the surface of the water. Oh no, it's going to burst! You try to \n" +
-                "swim away but there is nowhere to go! Suddenly, the bubble pops and hot air blasts you upwards towards the hole you \n" +
+                "begin to violently shake. A massive bubble rises to the surface of the water. Oh no, it's going to burst! You try to \n" +
+                "swim away but there is nowhere to go! Suddenly, the bubble pops and hot air blasts you upwards towards the shaft you \n" +
                 "fell through. You fly upwards back through the tunnel you came from, and back into the pink room you awoke in earlier, \n" +
                 "right back where you started. After resting from this, you decide to live out the rest of your days in this room. It's \n" +
-                "better than going back down into the depths.....\n \n --------------- \ncongrats! you got the human to burp! (●´∀｀●) \n");
+                "better than going back down into the depths.....\n \n --------------- \n congrats! you got the human to burp! (●´∀｀●) \n");
     }
 
     public static void coughEnding(){
@@ -77,7 +86,7 @@ public class Prompts {
                 "earth quake. A strong gust of wind propels your body back up towards the tunnel you fell through. You fly through the \n" +
                 "tunnel, and back into the pink room where you woke up not too long ago. This time, the large white doors have separated.\n" +
                 "There's a light between them. You are flying towards it....suddenly, you hear a loud, booming noise and you are propelled even harder \n" +
-                "towards the light....\n \n --------------- \ncongrats! you got the human to cough! (ノ ◑ ‿ ◑)ノ \n" );
+                "towards the light....\n \n --------------- \n congrats! you got the human to cough! (ノ ◑ ‿ ◑)ノ \n" );
     }
 
     public static void absorbedFromLungs(){
@@ -91,8 +100,8 @@ public class Prompts {
     public static void absorbed(){
         System.out.println("your body bursts into a million particles - but it isn't painful. You find yourself immersed in \n" +
                 "a beautiful red liquid. You look down at the remnants of your body, and see that you have been transformed \n" +
-                "into a tiny red droplet. You look around and see you are traveling with millions of other particles around \n" +
-                "you. Were the other parts of you also transformed into these red droplets? Are you traveling with them? As \n" +
+                "into a tiny red droplet. You are traveling with millions of other particles around you. Were the \n" +
+                "other parts of your body also transformed into these red droplets? Are you traveling with them? As \n" +
                 "you ask yourself these questions, you feel a rhythmic thumping in the distance. It's getting stronger and \n" +
                 "stronger. You approach another fork in your path. The path to the right seems to be where the loud beat is \n" +
                 "coming from....but the path on the left continues forward. Do you venture down right path and abandon the \n" +
