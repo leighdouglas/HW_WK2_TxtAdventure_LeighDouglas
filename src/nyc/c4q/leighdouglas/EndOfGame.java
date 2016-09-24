@@ -15,11 +15,11 @@ public class EndOfGame {
 
         do {
         if (choice.equalsIgnoreCase("Yes") || choice.equalsIgnoreCase("y")) {
-            Choices.startGame();
+            Choices.mouth();
             startOver = false;
             break;
         } else if (choice.equalsIgnoreCase("No") || choice.equalsIgnoreCase("n")) {
-            System.out.println("thank you for playing!");
+            System.out.println("Thank you for playing!");
             break;
         } else {
             startOver = true;

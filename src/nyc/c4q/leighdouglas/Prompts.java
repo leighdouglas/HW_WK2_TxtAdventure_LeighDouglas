@@ -4,12 +4,29 @@ import java.util.Scanner;
 
 public class Prompts {
 
-    public static void startOfGame(){
+    public static void startGame(){
+        System.out.println("Welcome to Confluence! Embark on the journey of a lifetime!\n \n \n \n \n  " +
+                        " ▄████▄   ▒█████   ███▄    █   █████▒██▓     █    ██ ▓█████  ███▄    █  ▄████▄  ▓█████ \n" +
+                        "▒██▀ ▀█  ▒██▒  ██▒ ██ ▀█   █ ▓██   ▒▓██▒     ██  ▓██▒▓█   ▀  ██ ▀█   █ ▒██▀ ▀█  ▓█   ▀ \n" +
+                        "▒▓█    ▄ ▒██░  ██▒▓██  ▀█ ██▒▒████ ░▒██░    ▓██  ▒██░▒███   ▓██  ▀█ ██▒▒▓█    ▄ ▒███   \n" +
+                        "▒▓▓▄ ▄██▒▒██   ██░▓██▒  ▐▌██▒░▓█▒  ░▒██░    ▓▓█  ░██░▒▓█  ▄ ▓██▒  ▐▌██▒▒▓▓▄ ▄██▒▒▓█  ▄ \n" +
+                        "▒ ▓███▀ ░░ ████▓▒░▒██░   ▓██░░▒█░   ░██████▒▒▒█████▓ ░▒████▒▒██░   ▓██░▒ ▓███▀ ░░▒████▒\n" +
+                        "░ ░▒ ▒  ░░ ▒░▒░▒░ ░ ▒░   ▒ ▒  ▒ ░   ░ ▒░▓  ░░▒▓▒ ▒ ▒ ░░ ▒░ ░░ ▒░   ▒ ▒ ░ ░▒ ▒  ░░░ ▒░ ░\n" +
+                        "  ░  ▒     ░ ▒ ▒░ ░ ░░   ░ ▒░ ░     ░ ░ ▒  ░░░▒░ ░ ░  ░ ░  ░░ ░░   ░ ▒░  ░  ▒    ░ ░  ░\n" +
+                        "░        ░ ░ ░ ▒     ░   ░ ░  ░ ░     ░ ░    ░░░ ░ ░    ░      ░   ░ ░ ░           ░   \n" +
+                        "░ ░          ░ ░           ░            ░  ░   ░        ░  ░         ░ ░ ░         ░  ░\n" +
+                        "░                                                                      ░               \n" +
+                        "     ░                                           ░                                     \n \n \n \n" +
+        "Would you like to start your journey? (Type yes or no)");
+    }
+
+    public static void mouth(){
         System.out.println("You wake up from what seems like a deep slumber atop something soft and warm....You're clothes are completely \n" +
                 "soaked, and you have a killer headache, You try to stand up but the area you are standing on gives and you fall over. \n" +
                 "You regain your footing. Where are you? You look around. You're in a narrow, pink room. \n" +
                 "It's dark and hard to see. Ahead of you, you the room narrows until complete darkness. Do you go forward? (y/n)");
     }
+
 
     public static void stillInMouth(){
         System.out.println("You turn around and see large, towering white doors surrounding you. You try to push through them, but \n" +
