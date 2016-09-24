@@ -9,7 +9,32 @@ public class Choices {
             String choice = "";
             boolean startOver = false;
 
-            Prompts.startOfGame();
+            Prompts.startGame();
+            choice = scanner.next();
+
+
+            do {
+                if (choice.equalsIgnoreCase("yes") || choice.equalsIgnoreCase("y")) {
+                    mouth();
+                    startOver = false;
+                    break;
+                } else if (choice.equalsIgnoreCase("no") || choice.equalsIgnoreCase("n")) {
+                    break;
+                } else {
+                    startOver = true;
+                    AdventureGame.promptPlayer("Please enter the correct input.");
+                    choice = scanner.next();
+                }
+            } while (startOver == true);
+        }
+
+
+        public static void mouth(){
+            Scanner scanner = new Scanner (System.in);
+            String choice = "";
+            boolean startOver = false;
+
+            Prompts.mouth();
 
             choice = scanner.next();
 
