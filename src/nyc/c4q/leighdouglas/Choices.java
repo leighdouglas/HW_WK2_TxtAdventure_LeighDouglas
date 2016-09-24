@@ -85,35 +85,29 @@ public class Choices {
         public static void lungs() {
             Scanner scanner = new Scanner (System.in);
             String choice = "";
-            boolean startOver = false;
 
             Prompts.lungs();
             choice = scanner.nextLine();
 
-            do {
                 if (choice.equalsIgnoreCase("Stay") || choice.equalsIgnoreCase("s")) {
                     coughEnding();
-                    startOver = false;
-                    break;
+
                 } else if (choice.equalsIgnoreCase("Touch orb")) {
                     Prompts.absorbedFromLungs();
                     Prompts.absorbed();
                     absorbed();
-                    startOver = false;
-                    break;
+
                 } else if(choice.equalsIgnoreCase("go to opening")) {
                     Prompts.tunnelFromLungsToStomach();
                     lungsToStomach();
                 } else {
-                    startOver = true;
-                    AdventureGame.promptPlayer("Please enter the correct input.");
-                    choice = scanner.nextLine();
+                    oops();
                 }
 
-            } while (startOver == true) ;
+            }
 
 
-        }
+
 
         public static void lungsToStomach(){
 
@@ -239,6 +233,11 @@ public class Choices {
         public static void heartEnding() {
 
             Prompts.heartEnding();
+            EndOfGame.endOfGameChoice();
+        }
+
+        public static void oops(){
+            Prompts.oops();
             EndOfGame.endOfGameChoice();
         }
 

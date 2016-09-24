@@ -58,7 +58,7 @@ public class Prompts {
                 "you see that you're in a vast, brightly lit room. You can feel the air around you moving in many directions around you. Inside of \n" +
                 "this room, there seems to be a vast network of branches, expanding out as far as you can see. At the end of each branch \n" +
                 "are tiny sponge-like orbs. They seem to be absorbing the air. You quite like this room, but it's a bit cold. You could \n" +
-                "stay here. You also feel this strong desire to go towards one of these orbs. You look around a bit more and see a small opening" +
+                "stay here. You also feel this strong desire to go towards one of these orbs. You look around a bit more and see a small opening \n" +
                 "below you...you could probably crawl in. What do you do? (stay/touch orb/go to opening)");
     }
 
@@ -118,10 +118,10 @@ public class Prompts {
     public static void brainEnding(){
         System.out.println("You continue down the path towards the right. You are enjoying floating with the other particles that used to form you. \n" +
                 "All of a sudden, you come upon a grey, wrinkled mass. There's just enough room in between the crease of the wrinkles to fit yourself \n" +
-                "through. You push yourself through and find yourself in yet another room. This time, you see several particles in what looks like a \n" +
+                "through. You push yourself through and find yourself in a new room. This time, you see several particles in what looks like a \n" +
                 "control room. Above you is another vast network of branches, but this time you see flashes of light traveling from one branch to another. \n" +
                 "There are millions of them! You see that the particles are pushing several buttons at a time, causing electricity to run through these \n" +
-                "branches. Amazing! You decided to stay and help them, as it seems like a very logical thing to do \n \n --------------- \n congrats! " +
+                "branches. Amazing! You decide to stay and help them, as it seems like a very logical thing to do \n \n --------------- \n congrats! " +
                 "you got the brain ending! ლ(╹◡╹ლ)\n");
     }
 
@@ -129,6 +129,10 @@ public class Prompts {
         System.out.println("You aren't exactly sure where you are, but you decide to help them. Looks like they really need " +
                 "it! You overhear a group of red droplets passing by refer to this room as the 'heart'. You aren't sure what " +
                 "you're doing, but you feel like you're contributing to a greater purpose. You decide to live out your days in " +
-                "this 'heart', whatever that means \n \n --------------- \n congrats! you got the heart ending! ( ♥ ◡ ♥ ) \n");
+                "this 'heart', whatever that means.... \n \n --------------- \n congrats! you got the heart ending! ( ♥ ◡ ♥ ) \n");
+    }
+
+    public static void oops(){
+        System.out.println("Uh oh! You found the easter egg and died. Better luck next time! ");
     }
 }
